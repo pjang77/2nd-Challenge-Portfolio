@@ -89,12 +89,26 @@ nav {
     padding: 20px; 
     border-style: solid; 
     border-radius: 20px; 
-    height: 200px;
+    height: 500px;
+    width: 500px; 
     justify-content: center;
-    
 }
 
+.others {
+    display: inline-block;
+}
 
+.mic {
+    display: inline:block; 
+    border-style: solid;
+    border-radius: 20px; 
+    height: 250px;
+    width: 225px;
+}
+
+.car {
+
+}
 
 .linkedin {
     display: inline-blcok; 
