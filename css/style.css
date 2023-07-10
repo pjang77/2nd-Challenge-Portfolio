@@ -19,74 +19,94 @@ body {
 .welcome {
     text-align: center; 
     margin: auto 0;
-    padding-bottom:
+    padding-top:20%; 
+    font-size: xx-large; 
+    font-style: italic; 
+
 }
 ul {
   list-style-type: none;
 }
 
 nav {
+    font-size: medium;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-}
-.header {
-    display: inline-block; 
-    
+    margin-top: -55px;
+    padding: 0 0 0 0;
 }
 
 .pauljang {
-    font-size: medium;
+    font-size: medium
+    display: flex; 
+    position: fixed;
+    justify-content: space-between;  
+    width: 100%; 
+    border-style: none;   
 }
 
-.welcome {
-   text-align:
-   
-}
 .profilepic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid transparent;
+  border: 10px;
   padding: 15px;
-  border-image: url(border.png) 50 round;
-
-}
-
-nav {
-    position:relative;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -55px;
-    padding: 0 0 0 0;
+  border-style: solid; 
+  border-radius: 20px; 
 
 }
 
 .about-me {
     text-align: center; 
     margin: auto 0;
+    display: block;
+    padding-top: 20%;
+    padding-bottom: 50px; 
 
 }
 
 .mecontent {
     text-align: center; 
+    line-height: 2.5;
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 20px; 
 }
 
 .my-work {
     text-align: center; 
     margin: auto 0;
+    padding-top: 5%; 
+    padding-bottom: 20%; 
 }
 
+.soon {
+    padding-bottom: 50px; 
+}
+
+.bbq {
+    padding: 20px; 
+    border-style: solid; 
+    border-radius: 20px; 
+    height: 200px;
+    justify-content: center;
+    
+}
+
+
+
 .linkedin {
-    display: inline-block
+    display: inline-blcok; 
+    height: 40px;
+    padding-right: 40px;
 
 }
 
 .gmail {
-    display: inline-block
+    display: inline-block;
+    height: 40px;  
+    padding-left: 40px; 
 
 }
 
@@ -94,7 +114,7 @@ nav {
     text-align: center; 
     margin: auto 0;
     padding-bottom: 24px;
-    
+    padding-top: 10%; 
 }
 
 .copyright {
